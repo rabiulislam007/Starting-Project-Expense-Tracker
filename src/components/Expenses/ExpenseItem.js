@@ -4,6 +4,7 @@ import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
   return (
+    <h1>Expense Item</h1>
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
       <div className="expense-item__description">
