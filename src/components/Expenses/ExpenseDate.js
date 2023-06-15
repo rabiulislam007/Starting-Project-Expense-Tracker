@@ -6,6 +6,7 @@ const ExpenseDate = (props) => {
   const year = props.date.getFullYear();
 
   return (
+    <h1>Expense Date</h1>
     <div className="expense-date">
       <div className="expense-date__month">{month}</div>
       <div className="expense-date__year">{year}</div>
