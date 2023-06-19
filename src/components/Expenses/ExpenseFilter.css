@@ -1,3 +1,7 @@
+*{
+    margin: 0 auto;
+}
+
 .expenses-filter {
     color: white;
     padding: 0 1rem;
