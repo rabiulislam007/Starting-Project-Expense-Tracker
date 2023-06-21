@@ -8,7 +8,6 @@ const ExpensesFilter = (props) => {
   };
 
   return (
-   <h1>Expense Filter</h1>
     <div className="expenses-filter">
       <div className="expenses-filter__control">
         <label>Filter by year</label>
